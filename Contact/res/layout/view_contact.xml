@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:stretchColumns="1"
+    android:layout_margin="5dp" >
+    
+    <TableRow >
+        <TextView 
+            style="@style/StyleLabel"
+            android:text="Name"></TextView>
+        
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/StyleText" ></TextView>
+    
+    </TableRow>
+    
+    <TableRow >
+        <TextView 
+            style="@style/StyleLabel"
+            android:text="Address"/>
+        
+        <TextView 
+            android:id="@+id/capText"
+            style="@style/StyleText" />    
+	</TableRow>
+	
+    <TableRow >
+        <TextView 
+            style="@style/StyleLabel"
+            android:text="Phone" />
+        <TextView 
+            android:id="@+id/codeText"
+            style="@style/StyleText" />    </TableRow>
+</TableLayout>
